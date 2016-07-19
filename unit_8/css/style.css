@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Ovo);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: center;
+	color: #222;
+	font-family: 'Ovo', serif;
+	font-size: 22px;
+}
+#splash {
+	background: url("../images/diahomepagewebsite.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	color: #fff;
+	font-family: Helvetica;
+	text-align: center;
+	background-position: bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+p {
+	font-family: 'Ovo', serif;
+	font-size: 22px;
+}
+hr {
+	margin:1em auto;
+	width: 200px;
+}
+#about {
+	background-color: #000;
+	color: #fff;
+	padding: 1.5em;
+}
+#strategy {
+	background-color: #fff;
+	padding: 1.5em;	
+}
+#clients {
+	background-color: #940365;	
+	padding: 1.5em;		
+}
+#contact {
+	background-color: #000;
+	color: #fff;
+	padding: 1.5em;			
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#button {
+	max-width: 600px;
+	margin: 0 auto;
+	display: none;
+}
+
+.cta {
+	display:inline-block;
+	font-color: #fff;
+	font-family: 'Ovo', serif;
+	border-bottom: 1px #fff;
+	padding: 2em;
+}
+.cta h3 {
+	border-bottom: 1px solid white;
+}
+@media screen and (max-width: 800px){
+	#button {
+		display: block;
+	}
+}
+
